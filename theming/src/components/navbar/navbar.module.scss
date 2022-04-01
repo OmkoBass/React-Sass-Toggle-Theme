@@ -1,0 +1,35 @@
+@use '../../styles/scss/abstracts/colors' as *;
+@use '../../styles/scss/abstracts/mixins' as *;
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    color: $white;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    color: $white;
+    font-weight: bold;
+    cursor: pointer;
+
+    li {
+      margin: 1em;
+    }
+  }
+}
+
+.light {
+  background-color: $primary;
+}
+
+.dark {
+  background-color: $secondary;
+}

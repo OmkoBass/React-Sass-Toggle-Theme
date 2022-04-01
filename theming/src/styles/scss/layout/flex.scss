@@ -1,0 +1,9 @@
+@use '../abstracts/mixins';
+
+.layout-center-mid-row {
+  @include flexCenter(row);
+}
+
+.layout-center-mid-column {
+  @include flexCenter(column);
+}

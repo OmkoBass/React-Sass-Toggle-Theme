@@ -1,0 +1,28 @@
+@use '../../styles/scss/abstracts/colors' as *;
+
+.button {
+  padding: 1em;
+  color: $dark-900;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
+.primary {
+  color: $white;
+  background-color: $primary;
+
+  &:hover {
+    background-color: $blue-600;
+  }
+}
+
+.secondary {
+  color: $white;
+  background-color: $secondary;
+
+  &:hover {
+    background-color: $orange-600;
+  }
+}

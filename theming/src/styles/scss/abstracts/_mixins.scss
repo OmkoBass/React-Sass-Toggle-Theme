@@ -1,0 +1,17 @@
+@use './colors' as *;
+
+@mixin flexCenter($direction: row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+  height: 100vh;
+}
+
+@mixin text($color: $dark-800) {
+  color: $color;
+}
+
+@mixin background($backgroundColor: $white) {
+  background-color: $backgroundColor;
+}
